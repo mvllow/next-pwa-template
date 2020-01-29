@@ -9,9 +9,11 @@
 ## Features
 
 - PWA ready
-- 100% lighthouse scores
 - Dark mode 🌚
 - Eslint/prettier working with typescript
+- 100% lighthouse scores
+
+<img width="400" src="public/images/lighthouse.png" alt="lighthouse">
 
 ## Known issues
 
@@ -19,5 +21,3 @@
 - Statusbar is unreadable in light mode
 - Needs apple splash screen images and meta tags
 - Web manifest/meta tags could probably be optimised? More icon sizes maybe?
-
-<img width="400" src="public/images/lighthouse.png" alt="lighthouse">
