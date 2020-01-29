@@ -44,10 +44,10 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'error',
 
     // NextJS handles react in scope
-    'react/react-in-jsx-scope': 0, // not required in nextjs
+    'react/react-in-jsx-scope': 0,
 
     // Clashes with NextJS custom Link component for internal navigation
-    'jsx-a11y/anchor-is-valid': 0, // clashes with next link component
+    'jsx-a11y/anchor-is-valid': 0,
 
     // Airbnb does not natively support ts/tsx
     // https://github.com/airbnb/javascript/blob/master/packages/eslint-config-airbnb-base/rules/imports.js#L139
