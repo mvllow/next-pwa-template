@@ -4,7 +4,7 @@
 <img width="300" src="public/images/dark.png" alt="dark mode"> <img width="300" src="public/images/light.png" alt="light mode">
 </p>
 
-<p align="center>
+<p align="center">
 <img width="600" src="public/images/lighthouse.png" alt="lighthouse">
 </p>
 
