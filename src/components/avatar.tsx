@@ -11,7 +11,7 @@ export default ({ size = 38, image, children }: Props) => {
   const text = string.split(' ').length > 1 ? getInitials(string) : string[0]
 
   return (
-    <div>
+    <div style={{ backgroundImage: image ? `url(${image})` : '' }}>
       {!image && text}
 
       <style jsx>{`
@@ -24,7 +24,6 @@ export default ({ size = 38, image, children }: Props) => {
           font-weight: var(--weight-bold);
           letter-spacing: 0.035em;
           background-color: var(--accent);
-          background-image: url(${image});
           background-size: cover;
           background-position: center -5px;
           background-repeat: no-repeat;
