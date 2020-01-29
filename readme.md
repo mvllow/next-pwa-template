@@ -1,12 +1,12 @@
 # Next PWA Template
 
-<div style="text-align:center">
-<img width="300" align="center" src="public/images/dark.png" alt="dark mode"> <img width="300" align="center" src="public/images/light.png" alt="light mode">
-</div>
+<p align="center">
+<img width="300" src="public/images/dark.png" alt="dark mode"> <img width="300" src="public/images/light.png" alt="light mode">
+</p>
 
-<div style="text-align:center">
-<img width="600" align="center" src="public/images/lighthouse.png" alt="lighthouse">
-</div>
+<p align="center>
+<img width="600" src="public/images/lighthouse.png" alt="lighthouse">
+</p>
 
 > I am happy to slim or bulk up the template depending on needs. Does sample data help? Hurt? Let me know!
 
