@@ -18,7 +18,7 @@ const UnnecessarilyComplexTitle = ({ loaded }: Props) => (
       <style jsx>{`
         a {
           position: absolute;
-          z-index: 5;
+          z-index: 3;
         }
 
         h1 {
@@ -31,11 +31,6 @@ const UnnecessarilyComplexTitle = ({ loaded }: Props) => (
           letter-spacing: 0.0035em;
           background: var(--base);
           transition: var(--transition-colors);
-        }
-
-        h1.loaded {
-          width: 6ch;
-          transition: 1s width 150ms ease-in-out, var(--transition-colors);
         }
 
         h1 span {
