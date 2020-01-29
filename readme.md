@@ -1,6 +1,8 @@
 # Next PWA Template
 
-![Lighthouse](public/images/lighthouse.png 'Usage')
+![Dark mode](public/images/dark.png 'Dark mode') ![Light mode](public/images/light.png 'Light mode')
+
+![Lighthouse](public/images/lighthouse.png 'Lighthouse')
 
 > I am happy to slim or bulk up the template depending on needs. Does sample data help? Hurt? Let me know!
 
