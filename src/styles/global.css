@@ -1,0 +1,102 @@
+@import url('https://rsms.me/inter/inter.css');
+
+:root {
+  --accent: #616bc7;
+  --text: #eeeff1;
+  --label: #8a8b8e;
+  --surface: #313236;
+  --divider: #2d2e31;
+  --base: #1f2022;
+  --overflow: #101015;
+
+  --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Helvetica, Arial, sans-serif;
+
+  --weight: 400;
+  --weight-bold: 500;
+  --weight-extrabold: 700;
+
+  --shadow-small: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  --shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  --shadow-large: 0 8px 30px rgba(0, 0, 0, 0.1);
+
+  --radius-small: 4px;
+  --radius: 8px;
+  --radius-large: 4px;
+
+  --gap-small: 0.75rem;
+  --gap: 1.5rem;
+  --gap-large: 3rem;
+
+  --transition: 200ms ease-in-out;
+  --transition-colors: color 50ms ease-in-out,
+    background-color var(--transition), border-color var(--transition);
+}
+
+.light {
+  --accent: #616bc7;
+  --text: #282828;
+  --label: #6a6b6e;
+  --surface: #efefef;
+  --divider: #eaeaea;
+  --base: #fefefe;
+  --overflow: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  max-height: 100%;
+}
+
+body {
+  color: var(--text);
+  font-family: var(--font);
+  font-weight: var(--weight);
+  background: var(--base);
+  transition: var(--transition-colors);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}

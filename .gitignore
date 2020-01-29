@@ -1,0 +1,12 @@
+# Generated via NextJS
+.next
+
+# Gerated via NodeJS
+node_modules
+
+# Generated via next-pwa package
+**/public/precache.*.js
+**/public/sw.js
+
+# macOS meta stuffs
+.DS_Store
