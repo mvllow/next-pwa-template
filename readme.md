@@ -1,10 +1,10 @@
 # Next PWA Template
 
-<p align="center">
-  <img width="300" src="public/images/dark.png" alt="dark mode"> <img width="300" src="public/images/light.png" alt="light mode">
-</p>
-
 > I am happy to slim or bulk up the template depending on needs. Does sample data help? Hurt? Let me know!
+
+<p align="center">
+  <img width="200" src="public/images/dark.png" alt="dark mode"> <img width="200" src="public/images/light.png" alt="light mode">
+</p>
 
 ## Features
 
@@ -13,7 +13,7 @@
 - Eslint/prettier working with typescript
 - 100% lighthouse scores
 
-<img width="400" src="public/images/lighthouse.png" alt="lighthouse">
+<img width="300" src="public/images/lighthouse.png" alt="lighthouse">
 
 ## Known issues
 
