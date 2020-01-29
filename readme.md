@@ -17,7 +17,7 @@
 
 ## Known issues
 
-- Dark mode doesn't always toggle when added to home screen
 - Statusbar is unreadable in light mode
+- Yes, the title is ultra hacky and should probably be rewritten
 - Needs apple splash screen images and meta tags
 - Web manifest/meta tags could probably be optimised? More icon sizes maybe?
