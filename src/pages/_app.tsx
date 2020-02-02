@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import { NextPage } from 'next'
 import { AppProps } from 'next/app'
 import '../styles/global.css'
 
-const App: NextPage<AppProps> = ({ Component, pageProps }) => (
+const App = ({ Component, pageProps }: AppProps) => (
   <>
     <Head>
       <title>Paladin Hub</title>
