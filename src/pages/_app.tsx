@@ -5,7 +5,7 @@ import '../styles/global.css'
 const App = ({ Component, pageProps }: AppProps) => (
   <>
     <Head>
-      <title>Paladin Hub</title>
+      <title>Grapefruit</title>
       <meta charSet='utf-8' />
       <meta name='mobile-web-app-capable' content='yes' />
       <meta name='apple-mobile-web-app-capable' content='yes' />
@@ -13,8 +13,8 @@ const App = ({ Component, pageProps }: AppProps) => (
         name='apple-mobile-web-app-status-bar-style'
         content='black-translucent'
       />
-      <meta name='apple-mobile-web-app-title' content='pub' />
-      <meta name='application-name' content='pub' />
+      <meta name='apple-mobile-web-app-title' content='Grapefruit' />
+      <meta name='application-name' content='Grapefruit' />
       <meta name='description' content='Company internal hub' />
       <meta name='theme-color' content='#457ef7' />
       <meta
