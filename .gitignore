@@ -5,8 +5,8 @@
 node_modules
 
 # Generated via next-pwa package
-**/public/precache.*.js
-**/public/sw.js
+**/public/workbox**
+**/public/sw**
 
 # macOS meta stuffs
 .DS_Store
