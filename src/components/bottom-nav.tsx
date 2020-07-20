@@ -6,23 +6,23 @@ const links = [
   {
     title: 'Home',
     icon: <Home />,
-    href: '/'
+    href: '/',
   },
   {
     title: 'Calendar',
     icon: <Calendar />,
-    href: '/calendar'
+    href: '/calendar',
   },
   {
     title: 'Tasks',
     icon: <CheckCircle />,
-    href: '/tasks'
+    href: '/tasks',
   },
   {
     title: 'Profile',
     icon: <User />,
-    href: '/profile'
-  }
+    href: '/profile',
+  },
 ]
 
 const BottomNav = () => {
@@ -31,7 +31,7 @@ const BottomNav = () => {
   return (
     <nav>
       <div>
-        {links.map(link => (
+        {links.map((link) => (
           <Link href={link.href} key={link.title}>
             <a
               title={link.title}

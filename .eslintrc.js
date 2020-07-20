@@ -4,13 +4,13 @@
 module.exports = {
   env: {
     browser: true,
-    node: true
+    node: true,
   },
   extends: [
     'airbnb',
     'airbnb/hooks',
     'plugin:prettier/recommended',
-    'prettier/react'
+    'prettier/react',
   ],
   /// Start typescript
   parser: '@typescript-eslint/parser',
@@ -18,13 +18,13 @@ module.exports = {
   settings: {
     'import/extensions': ['.js', '.jsx', '.ts', '.tsx'],
     'import/parsers': {
-      '@typescript-eslint/parser': ['.ts', '.tsx']
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
     },
     'import/resolver': {
       node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx']
-      }
-    }
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
   },
   /// End typescript
   rules: {
@@ -59,8 +59,8 @@ module.exports = {
         js: 'never',
         jsx: 'never',
         ts: 'never',
-        tsx: 'never'
-      }
-    ]
-  }
+        tsx: 'never',
+      },
+    ],
+  },
 }
