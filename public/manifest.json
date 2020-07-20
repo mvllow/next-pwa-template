@@ -1,7 +1,7 @@
 {
-  "short_name": "Penguins",
-  "name": "Penguins Inc.",
-  "description": "Showcasing the best penguins in town",
+  "name": "Grapefruit",
+  "short_name": "Grapefruit",
+  "description": "Leaving a sour taste in your mouth since 1989",
   "icons": [
     {
       "src": "/images/icon-192.png",
