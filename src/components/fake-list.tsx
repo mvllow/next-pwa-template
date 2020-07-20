@@ -10,7 +10,7 @@ const FakeList = () => {
 
   return (
     <ul>
-      {data.map(item => (
+      {data.map((item) => (
         <li key={item}>
           <Avatar>{item}</Avatar>
           <h4>{item}</h4>
