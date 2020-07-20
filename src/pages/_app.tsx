@@ -15,7 +15,10 @@ const App = ({ Component, pageProps }: AppProps) => (
       />
       <meta name='apple-mobile-web-app-title' content='Grapefruit' />
       <meta name='application-name' content='Grapefruit' />
-      <meta name='description' content='Company internal hub' />
+      <meta
+        name='description'
+        content='Leaving a sour taste in your mouth since 1989'
+      />
       <meta name='theme-color' content='#457ef7' />
       <meta
         name='viewport'
