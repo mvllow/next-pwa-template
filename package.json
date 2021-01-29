@@ -1,34 +1,37 @@
 {
-  "name": "next-pwa-template",
-  "version": "0.1.0",
-  "license": "MIT",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "test": "xo"
-  },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true,
-    "jsxSingleQuote": true
-  },
-  "xo": {
-    "extends": ["xo-typescript", "xo-react"]
-  },
-  "dependencies": {
-    "next": "^9.4.4",
-    "next-pwa": "^3.1.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-feather": "^2.0.8"
-  },
-  "devDependencies": {
-    "@types/react": "^16.9.43",
-    "eslint-config-xo-react": "^0.23.0",
-    "eslint-plugin-react": "^7.22.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "typescript": "^3.9.7",
-    "xo": "^0.37.1"
-  }
+	"name": "next-pwa-template",
+	"version": "0.1.0",
+	"license": "MIT",
+	"scripts": {
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
+		"test": "xo"
+	},
+	"prettier": {
+		"semi": false,
+		"singleQuote": true,
+		"jsxSingleQuote": true
+	},
+	"xo": {
+		"extends": [
+			"xo-typescript",
+			"xo-react"
+		]
+	},
+	"dependencies": {
+		"next": "^9.4.4",
+		"next-pwa": "^3.1.0",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-feather": "^2.0.8"
+	},
+	"devDependencies": {
+		"@types/react": "^16.9.43",
+		"eslint-config-xo-react": "^0.23.0",
+		"eslint-plugin-react": "^7.22.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"typescript": "^3.9.7",
+		"xo": "^0.37.1"
+	}
 }
