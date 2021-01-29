@@ -3,13 +3,13 @@ import Section from '../components/section'
 import FakeList from '../components/fake-list'
 
 const Tasks = () => (
-	<Page title='Tasks'>
-		<Section>
-			<h2>Tasks</h2>
-		</Section>
+  <Page title='Tasks'>
+    <Section>
+      <h2>Tasks</h2>
+    </Section>
 
-		<FakeList />
-	</Page>
+    <FakeList />
+  </Page>
 )
 
 export default Tasks

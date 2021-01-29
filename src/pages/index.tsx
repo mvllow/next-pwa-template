@@ -3,22 +3,20 @@ import Section from '../components/section'
 import FakeList from '../components/fake-list'
 import { getPlaceholderName } from '../helpers'
 
-const Index = () => {
-	const data = []
+export default () => {
+  const data = []
 
-	for (let i = 0; i < 10; i++) {
-		data.push(getPlaceholderName())
-	}
+  for (let i = 0; i < 10; i++) {
+    data.push(getPlaceholderName())
+  }
 
-	return (
-		<Page>
-			<Section>
-				<h2>Home</h2>
-			</Section>
+  return (
+    <Page>
+      <Section>
+        <h2>Home</h2>
+      </Section>
 
-			<FakeList />
-		</Page>
-	)
+      <FakeList />
+    </Page>
+  )
 }
-
-export default Index

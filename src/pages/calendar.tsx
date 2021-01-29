@@ -3,13 +3,13 @@ import Section from '../components/section'
 import FakeList from '../components/fake-list'
 
 const Calendar = () => (
-	<Page title='Calendar'>
-		<Section>
-			<h2>Calendar</h2>
-		</Section>
+  <Page title='Calendar'>
+    <Section>
+      <h2>Calendar</h2>
+    </Section>
 
-		<FakeList />
-	</Page>
+    <FakeList />
+  </Page>
 )
 
 export default Calendar
