@@ -1,17 +1,17 @@
 type Props = {
-  children: React.ReactNode
+	children: React.ReactNode
 }
 
 const Section = ({ children }: Props) => (
-  <section>
-    {children}
+	<section>
+		{children}
 
-    <style jsx>{`
-      section {
-        padding: var(--gap);
-      }
-    `}</style>
-  </section>
+		<style jsx>{`
+			section {
+				padding: var(--gap);
+			}
+		`}</style>
+	</section>
 )
 
 export default Section
