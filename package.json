@@ -9,15 +9,10 @@
 		"test": "xo"
 	},
 	"prettier": {
+		"bracketSpacing": true,
 		"semi": false,
 		"singleQuote": true,
 		"jsxSingleQuote": true
-	},
-	"xo": {
-		"extends": [
-			"xo-typescript",
-			"xo-react"
-		]
 	},
 	"dependencies": {
 		"next": "^9.4.4",
@@ -29,6 +24,7 @@
 	"devDependencies": {
 		"@types/react": "^16.9.43",
 		"eslint-config-xo-react": "^0.23.0",
+		"eslint-config-xo-typescript": "^0.37.0",
 		"eslint-plugin-react": "^7.22.0",
 		"eslint-plugin-react-hooks": "^4.2.0",
 		"typescript": "^3.9.7",
