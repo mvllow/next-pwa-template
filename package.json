@@ -1,24 +1,46 @@
 {
-  "name": "next-pwa-template",
-  "version": "0.0.0",
-  "license": "MIT",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "10.0.6",
-    "next-themes": "^0.0.10",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
-  },
-  "devDependencies": {
-    "@types/node": "^14.14.25",
-    "@types/react": "^17.0.1",
-    "autoprefixer": "^10.2.4",
-    "postcss": "^8.2.5",
-    "tailwindcss": "^2.0.3",
-    "typescript": "^4.1.3"
-  }
+	"name": "next-pwa-template",
+	"version": "0.0.0",
+	"license": "MIT",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"test": "xo !*.config.js"
+	},
+	"dependencies": {
+		"next": "10.0.6",
+		"next-themes": "^0.0.10",
+		"react": "17.0.1",
+		"react-dom": "17.0.1"
+	},
+	"devDependencies": {
+		"@types/node": "^14.14.25",
+		"@types/react": "^17.0.1",
+		"autoprefixer": "^10.2.4",
+		"eslint-config-xo-react": "^0.23.0",
+		"eslint-config-xo-typescript": "^0.37.0",
+		"eslint-plugin-react": "^7.22.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"postcss": "^8.2.5",
+		"tailwindcss": "^2.0.3",
+		"typescript": "^4.1.3",
+		"xo": "^0.37.1"
+	},
+	"prettier": {
+		"bracketSpacing": true,
+		"semi": false,
+		"singleQuote": true,
+		"jsxSingleQuote": true
+	},
+	"xo": {
+		"prettier": "true",
+		"extends": [
+			"xo-typescript",
+			"xo-react"
+		],
+		"rules": {
+			"react/react-in-jsx-scope": "off"
+		}
+	}
 }
