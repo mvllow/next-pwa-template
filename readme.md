@@ -1,29 +1,48 @@
-# Next PWA Template
+<p align="center">
+	<img alt="Rice Bowl" src="public/images/icon-512.png" width="90">
+	<h2 align="center">Next PWA Template</h2>
+</p>
 
-> I am happy to slim or bulk up the template depending on needs. Does sample data help? Hurt? Let me know!
+<p align="center">Fluffless app template to inspire less</p>
 
 <p align="center">
-  <img width="200" src="public/images/dark.png" alt="dark mode"> <img width="200" src="public/images/light.png" alt="light mode">
+	<a href="https://next-pwa-template.now.sh">Live demo</a>
+</p>
+
+<p align="center">
+	<a href="https://web.dev/measure">
+		<img alt="100% lighthouse scores" src="https://img.shields.io/badge/lighthouse-100%25-845EF7.svg?logo=lighthouse&logoColor=white&style=flat-square" />
+	</a>
+	<a href="https://github.com/xojs/xo">
+		<img alt="XO code style" src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square" />
+	</a>
 </p>
 
 ## Features
 
-- PWA ready
-- Dark mode 🌚
-- Eslint/prettier working with typescript
-- 100% lighthouse scores
+- ✨ Fluffless PWA using Next 10
+- 🌗 Lovely night/day themes
+- 🦄 Easily removable [nice-to-haves](#use-only-what-you-need)
+- 📱 Native-like mobile experience
+- 📦 Neatly wrapped like that avocado you got for christmas
 
-<img width="300" src="public/images/lighthouse.png" alt="lighthouse">
+## Getting started
 
-## Known issues
+1. [Use this template](https://github.com/mvllow/next-pwa-template/generate)
+2. Replace `public/images` with your own
+3. Enjoy ✨
 
-- App icon transparency is made black on iOS homescreen (easy fix is to use a non-circle icon for apple and match their dimensions)
-- Statusbar is unreadable in light mode
-- Yes, the title is ultra hacky and should probably be rewritten
+## Use only what you need
 
-## pwacompat
+Fluffless doesn't mean "start with nothing". The goal of this template is to be an entry into maintainable apps.
 
-A quick solution for the below is [pwacompat](https://github.com/GoogleChromeLabs/pwacompat). At the time of writing, 20 splash screen images are needed for apple devices alone (portrait and orientation for all screen sizes).
+**The essentials**
 
-- Needs apple splash screen images and meta tags
-- Web manifest/meta tags could probably be optimised? More icon sizes maybe?
+- Typescript, made easy with Next.js
+- [tailwindcss](https://github.com/tailwindlabs/tailwindcss) for utility-first styling
+- [next-pwa](https://github.com/shadowwalker/next-pwa) for offline support
+
+**Nice to haves**
+
+- [next-themes](https://github.com/pacocoursey/next-themes) or similar for low stress theming
+- [XO](https://github.com/xojs/xo) for opinionated eslint + prettier

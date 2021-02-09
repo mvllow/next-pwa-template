@@ -1,23 +1,35 @@
 {
-  "name": "Grapefruit",
-  "short_name": "Grapefruit",
-  "description": "Leaving a sour taste in your mouth since 1989",
-  "icons": [
-    {
-      "src": "/images/icon-192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "/images/icon-512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": "/?source=pwa",
-  "background_color": "#457ef7",
-  "orientation": "portrait",
-  "display": "standalone",
-  "scope": "/",
-  "theme_color": "#457ef7"
+	"name": "Rice Bowl",
+	"short_name": "Rice Bowl",
+	"description": "Fluffless jasmine rice for those cold winter nights",
+	"icons": [
+		{
+			"src": "/images/icon-192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/images/icon-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+		{
+			"src": "/images/icon-maskable-192.png",
+			"type": "image/png",
+			"sizes": "192x192",
+			"purpose": "maskable"
+		},
+		{
+			"src": "/images/icon-maskable-512.png",
+			"type": "image/png",
+			"sizes": "512x512",
+			"purpose": "maskable"
+		}
+	],
+	"start_url": "/?source=pwa",
+	"background_color": "#1d2020",
+	"orientation": "portrait",
+	"display": "standalone",
+	"scope": "/",
+	"theme_color": "#1d2020"
 }

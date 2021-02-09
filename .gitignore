@@ -1,12 +1,9 @@
-# Generated via NextJS
+# Generated via Next.js
 .next
 
-# Generated via NodeJS
+# Generated via Node.js
 node_modules
 
-# Generated via next-pwa package
+# Generated via next-pwa
 **/public/workbox**
 **/public/sw**
-
-# macOS meta stuffs
-.DS_Store
