@@ -46,3 +46,13 @@ Fluffless doesn't mean "start with nothing". The goal of this template is to be 
 
 - [next-themes](https://github.com/pacocoursey/next-themes) or similar for low stress theming
 - [XO](https://github.com/xojs/xo) for opinionated eslint + prettier
+
+## Gallery
+
+### Desktop
+
+<img alt="" src="public/images/macos.png" width="500" />
+
+### Mobile
+
+<img alt="" src="public/images/ios.png" width="500" />
