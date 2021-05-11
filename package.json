@@ -23,7 +23,7 @@
 		"eslint-config-xo-typescript": "^0.37.0",
 		"eslint-plugin-react": "^7.22.0",
 		"eslint-plugin-react-hooks": "^4.2.0",
-		"postcss": "^8.2.5",
+		"postcss": "^8.2.10",
 		"tailwindcss": "^2.0.3",
 		"tailwindcss-safe-area": "^0.1.1",
 		"typescript": "^4.1.3",
