@@ -45,7 +45,6 @@ Fluffless doesn't mean "start with nothing". The goal of this template is to be 
 **Nice to haves**
 
 - [next-themes](https://github.com/pacocoursey/next-themes) or similar for low stress theming
-- [XO](https://github.com/xojs/xo) for opinionated eslint + prettier
 
 ## Gallery
 
