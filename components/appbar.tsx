@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 const links = [
@@ -39,14 +38,14 @@ const Appbar = () => {
 							</div>
 						</div>
 
-						<div className='w-10 h-10 bg-gray-200 dark:bg-gray-800 rounded-full shadow-inner'>
-							<Image
-								src='https://images.unsplash.com/photo-1612480797665-c96d261eae09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
-								alt='Gluten Free'
-								width='256'
-								height='256'
-							/>
-						</div>
+						<div
+							title='Gluten Free'
+							className='w-10 h-10 bg-gray-200 dark:bg-gray-800 bg-cover bg-center rounded-full shadow-inner'
+							style={{
+								backgroundImage:
+									'url(https://images.unsplash.com/photo-1612480797665-c96d261eae09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80)',
+							}}
+						/>
 					</nav>
 				</div>
 			</header>
