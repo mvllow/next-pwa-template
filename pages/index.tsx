@@ -1,30 +1,35 @@
 import Page from '@/components/page'
+import Section from '@/components/section'
 
 const Index = () => (
 	<Page>
-		<section className='mt-20'>
+		<Section>
 			<h2 className='text-xl font-semibold text-gray-800 dark:text-gray-200'>
 				We grow a lot of rice.
 			</h2>
 
-			<p className='mt-2 text-gray-600 dark:text-gray-400'>
-				You love rice, and so does the rest of the world. In the crop year
-				2008/2009, the milled rice production volume amounted to over{' '}
-				<span className='font-medium text-gray-900 dark:text-gray-50'>
-					448 million tons
-				</span>{' '}
-				worldwide.
-			</p>
-
 			<div className='mt-2'>
-				<a
-					href='https://github.com/mvllow/next-pwa-template'
-					className='border-b border-dotted text-sm text-gray-700 dark:text-gray-300'
-				>
-					Source
-				</a>
+				<p className='text-gray-600 dark:text-gray-400'>
+					You love rice, and so does the rest of the world. In the crop year
+					2008/2009, the milled rice production volume amounted to over{' '}
+					<span className='font-medium text-gray-900 dark:text-gray-50'>
+						448 million tons
+					</span>{' '}
+					worldwide.
+				</p>
+
+				<br />
+
+				<p className='text-sm text-gray-600 dark:text-gray-400'>
+					<a
+						href='https://github.com/mvllow/next-pwa-template'
+						className='underline'
+					>
+						Source
+					</a>
+				</p>
 			</div>
-		</section>
+		</Section>
 	</Page>
 )
 

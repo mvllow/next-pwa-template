@@ -1,23 +1,28 @@
 import Page from '@/components/page'
+import Section from '@/components/section'
 
 const Story = () => (
 	<Page>
-		<section className='mt-20'>
+		<Section>
 			<h2 className='text-xl font-semibold'>Story</h2>
 
-			<p className='mt-2 text-gray-600 dark:text-gray-400'>
-				&quot;I confess that when this all started, you were like a picture out
-				of focus to me. And it took time for my eyes to adjust to you, to make
-				sense of you, to really recognize you.&quot; - someone
-			</p>
+			<div className='mt-2'>
+				<p className='text-gray-600 dark:text-gray-400'>
+					&quot;I confess that when this all started, you were like a picture
+					out of focus to me. And it took time for my eyes to adjust to you, to
+					make sense of you, to really recognize you.&quot;
+				</p>
 
-			<p className='mt-10 text-xs text-gray-500 dark:text-gray-500'>
-				<a href='https://twosentencestories.com/vision' className='underline'>
-					Vision
-				</a>
-				, a two sentence story
-			</p>
-		</section>
+				<br />
+
+				<p className='text-sm text-gray-600 dark:text-gray-400'>
+					<a href='https://twosentencestories.com/vision' className='underline'>
+						Vision
+					</a>
+					, a two sentence story
+				</p>
+			</div>
+		</Section>
 	</Page>
 )
 
