@@ -1,34 +1,38 @@
 import Page from '@/components/page'
+import Section from '@/components/section'
 
 const Recipes = () => (
 	<Page>
-		<section className='mt-20'>
+		<Section>
 			<h2 className='text-xl font-semibold'>Ingredients</h2>
 
-			<p className='mt-2 text-gray-600 dark:text-gray-400'>
-				Like any good recipe, we appreciate community offerings to cultivate a
-				delicous dish.
-			</p>
-		</section>
+			<div className='mt-2'>
+				<p className='text-gray-600 dark:text-gray-400'>
+					Like any good recipe, we appreciate community offerings to cultivate a
+					delicous dish.
+				</p>
+			</div>
+		</Section>
 
-		<section className='mt-10'>
+		<Section>
 			<h3 className='font-medium'>Thanks to</h3>
 
-			<ul className='space-y-2 px-6 py-2 text-sm text-gray-600 dark:text-gray-400 list-disc'>
-				<li>
+			<ul className='space-y-2 px-6 py-2 list-disc'>
+				<li className='text-sm text-gray-600 dark:text-gray-400'>
 					<a href='https://unsplash.com' className='underline'>
 						Unsplash
 					</a>{' '}
 					for high quality images
 				</li>
-				<li>
+
+				<li className='text-sm text-gray-600 dark:text-gray-400'>
 					<a href='https://teenyicons.com' className='underline'>
 						Teenyicons
 					</a>{' '}
 					for lovely icons
 				</li>
 			</ul>
-		</section>
+		</Section>
 	</Page>
 )
 
