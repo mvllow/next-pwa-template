@@ -15,6 +15,15 @@ const Index = () => (
 				</span>{' '}
 				worldwide.
 			</p>
+
+			<div className='mt-2'>
+				<a
+					href='https://github.com/mvllow/next-pwa-template'
+					className='border-b border-dotted text-sm text-gray-700 dark:text-gray-300'
+				>
+					Source
+				</a>
+			</div>
 		</section>
 	</Page>
 )
