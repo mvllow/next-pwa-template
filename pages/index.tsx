@@ -4,15 +4,15 @@ import Section from '@/components/section'
 const Index = () => (
 	<Page>
 		<Section>
-			<h2 className='text-xl font-semibold text-gray-800 dark:text-gray-200'>
+			<h2 className='text-xl font-semibold text-zinc-800 dark:text-zinc-200'>
 				We grow a lot of rice.
 			</h2>
 
 			<div className='mt-2'>
-				<p className='text-gray-600 dark:text-gray-400'>
+				<p className='text-zinc-600 dark:text-zinc-400'>
 					You love rice, and so does the rest of the world. In the crop year
 					2008/2009, the milled rice production volume amounted to over{' '}
-					<span className='font-medium text-gray-900 dark:text-gray-50'>
+					<span className='font-medium text-zinc-900 dark:text-zinc-50'>
 						448 million tons
 					</span>{' '}
 					worldwide.
@@ -20,7 +20,7 @@ const Index = () => (
 
 				<br />
 
-				<p className='text-sm text-gray-600 dark:text-gray-400'>
+				<p className='text-sm text-zinc-600 dark:text-zinc-400'>
 					<a
 						href='https://github.com/mvllow/next-pwa-template'
 						className='underline'

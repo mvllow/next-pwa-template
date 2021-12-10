@@ -10,8 +10,8 @@ const Appbar = () => {
 	const router = useRouter()
 
 	return (
-		<div className='pt-safe w-full bg-gray-900 fixed top-0'>
-			<header className='bg-gray-100 border-b dark:bg-gray-900 dark:border-gray-800'>
+		<div className='pt-safe w-full bg-zinc-900 fixed top-0'>
+			<header className='bg-zinc-100 border-b dark:bg-zinc-900 dark:border-zinc-800'>
 				<div className='mx-auto px-6 max-w-screen-md h-20 flex items-center justify-between'>
 					<Link href='/'>
 						<a>
@@ -28,7 +28,7 @@ const Appbar = () => {
 											className={`text-sm ${
 												router.pathname === href
 													? 'text-indigo-500 dark:text-indigo-400'
-													: 'text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-50'
+													: 'text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50'
 											}`}
 										>
 											{label}
@@ -40,7 +40,7 @@ const Appbar = () => {
 
 						<div
 							title='Gluten Free'
-							className='w-10 h-10 bg-gray-200 dark:bg-gray-800 bg-cover bg-center rounded-full shadow-inner'
+							className='w-10 h-10 bg-zinc-200 dark:bg-zinc-800 bg-cover bg-center rounded-full shadow-inner'
 							style={{
 								backgroundImage:
 									'url(https://images.unsplash.com/photo-1612480797665-c96d261eae09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80)',
