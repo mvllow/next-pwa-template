@@ -13,9 +13,6 @@
 	<a href="https://web.dev/measure">
 		<img alt="100% lighthouse scores" src="https://img.shields.io/badge/lighthouse-100%25-845EF7.svg?logo=lighthouse&logoColor=white&style=flat-square" />
 	</a>
-	<a href="https://github.com/xojs/xo">
-		<img alt="XO code style" src="https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square" />
-	</a>
 </p>
 
 ## Features
