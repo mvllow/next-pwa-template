@@ -13,7 +13,16 @@ const Meta = () => (
 		<meta name='apple-mobile-web-app-title' content='Rice Bowl' />
 		<meta name='application-name' content='Rice Bowl' />
 		<meta name='description' content='Bring your own ingredients' />
-		<meta name='theme-color' content='#1d2020' />
+		<meta
+			name='theme-color'
+			content='#f4f4f5'
+			media='(prefers-color-scheme: light)'
+		/>
+		<meta
+			name='theme-color'
+			content='#18181b'
+			media='(prefers-color-scheme: dark)'
+		/>
 		<meta
 			name='viewport'
 			content='width=device-width, initial-scale=1, user-scalable=0, viewport-fit=cover'
