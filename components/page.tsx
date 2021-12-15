@@ -22,9 +22,9 @@ const Page = ({ title, children }: Props) => (
 			 * Padding top = `appbar` height
 			 * Padding bottom = `bottom-nav` height
 			 */
-			className='mx-auto mt-10 pt-20 pb-16 max-w-screen-md'
+			className='mx-auto pt-20 pb-16 max-w-screen-md'
 		>
-			<div className='p-6'>{children}</div>
+			<div className='mt-10 p-6'>{children}</div>
 		</main>
 
 		<BottomNav />
