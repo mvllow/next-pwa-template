@@ -15,7 +15,7 @@ specifiers:
   react: 17.0.2
   react-dom: 17.0.2
   tailwindcss: ^3.0.0
-  tailwindcss-safe-area: ^0.2.1
+  tailwindcss-safe-area: ^0.2.2
   typescript: ^4.5.3
 
 dependencies:
@@ -35,7 +35,7 @@ devDependencies:
   postcss: 8.4.4
   prettier: 2.5.1
   tailwindcss: 3.0.0_6b4e3d148bdcb715d5f821ed0a9c268b
-  tailwindcss-safe-area: 0.2.1
+  tailwindcss-safe-area: 0.2.2
   typescript: 4.5.3
 
 packages:
@@ -2904,6 +2904,7 @@ packages:
     resolution: {integrity: sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==}
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
+    requiresBuild: true
     optional: true
 
   /function-bind/1.1.1:
@@ -4682,8 +4683,8 @@ packages:
       has-flag: 4.0.0
     dev: false
 
-  /tailwindcss-safe-area/0.2.1:
-    resolution: {integrity: sha512-TtF+6xqqrMj003VBNM1B4jXFZ88jPth89XkfFyQxBgfgZ2UQlR0UAvp9evKR6Ax8cOH2TheoJSHYIpRvxI5bjg==}
+  /tailwindcss-safe-area/0.2.2:
+    resolution: {integrity: sha512-sygGuEFFBBzjqR6d2gB9hDW9xX/4yLt7ymhR2E/XVa6Ar4B86Net8/9EmPAsqFUvXY40+W0HnXwFavFJEM+eCQ==}
     dev: true
 
   /tailwindcss/3.0.0_6b4e3d148bdcb715d5f821ed0a9c268b:
