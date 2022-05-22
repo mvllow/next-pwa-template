@@ -6,12 +6,12 @@ const BottomNav = () => {
 
 	return (
 		<div className='sm:hidden'>
-			<nav className='pb-safe w-full bg-zinc-100 border-t dark:bg-zinc-900 dark:border-zinc-800 fixed bottom-0'>
-				<div className='mx-auto px-6 max-w-md h-16 flex items-center justify-around'>
+			<nav className='fixed bottom-0 w-full border-t bg-zinc-100 pb-safe dark:border-zinc-800 dark:bg-zinc-900'>
+				<div className='mx-auto flex h-16 max-w-md items-center justify-around px-6'>
 					{links.map(({ href, label, icon }) => (
 						<Link key={label} href={href}>
 							<a
-								className={`space-y-1 w-full h-full flex flex-col items-center justify-center ${
+								className={`flex h-full w-full flex-col items-center justify-center space-y-1 ${
 									router.pathname === href
 										? 'text-indigo-500 dark:text-indigo-400'
 										: 'text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-50'

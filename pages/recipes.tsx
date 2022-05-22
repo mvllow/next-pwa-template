@@ -17,7 +17,7 @@ const Recipes = () => (
 		<Section>
 			<h3 className='font-medium'>Thanks to</h3>
 
-			<ul className='space-y-2 px-6 py-2 list-disc'>
+			<ul className='list-disc space-y-2 px-6 py-2'>
 				<li className='text-sm text-zinc-600 dark:text-zinc-400'>
 					<a href='https://unsplash.com' className='underline'>
 						Unsplash
