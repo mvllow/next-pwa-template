@@ -9,24 +9,24 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"next": "12.1.0",
-		"next-pwa": "^5.4.4",
-		"next-themes": "^0.1.1",
-		"react": "17.0.2",
-		"react-dom": "17.0.2"
+		"next": "12.1.6",
+		"next-pwa": "^5.5.2",
+		"next-themes": "^0.2.0",
+		"react": "18.1.0",
+		"react-dom": "18.1.0"
 	},
 	"devDependencies": {
-		"@types/node": "^17.0.21",
-		"@types/react": "^17.0.39",
-		"autoprefixer": "^10.4.2",
-		"eslint": "^8.9.0",
-		"eslint-config-next": "^12.1.0",
-		"eslint-config-prettier": "^8.4.0",
-		"postcss": "^8.4.6",
-		"prettier": "^2.5.1",
-		"tailwindcss": "^3.0.23",
+		"@types/node": "^17.0.35",
+		"@types/react": "^18.0.9",
+		"autoprefixer": "^10.4.7",
+		"eslint": "^8.16.0",
+		"eslint-config-next": "^12.1.6",
+		"eslint-config-prettier": "^8.5.0",
+		"postcss": "^8.4.14",
+		"prettier": "^2.6.2",
+		"tailwindcss": "^3.0.24",
 		"tailwindcss-safe-area": "^0.2.2",
-		"typescript": "^4.5.5"
+		"typescript": "^4.6.4"
 	},
 	"prettier": {
 		"semi": false,
