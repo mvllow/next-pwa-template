@@ -27,9 +27,7 @@
 		}
 	],
 	"start_url": "/?source=pwa",
-	"background_color": "#1d2020",
 	"orientation": "portrait",
 	"display": "standalone",
-	"scope": "/",
-	"theme_color": "#1d2020"
+	"scope": "/"
 }
