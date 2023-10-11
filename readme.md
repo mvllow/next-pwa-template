@@ -47,8 +47,10 @@ Fluffless doesn't mean "start with nothing". The goal of this template is to be 
 
 ### Desktop
 
-<img alt="" src="public/images/macos.png" width="500" />
+<img width="1728" alt="Rice Bowl PWA on macOS in dark mode" src="https://github.com/mvllow/next-pwa-template/assets/1474821/889bef1b-af58-4efa-b1f3-3ea021ec9760">
 
 ### Mobile
 
-<img alt="" src="public/images/ios.png" width="500" />
+<img width="500" alt="Rice Bowl PWA on iOS in light mode" src="https://github.com/mvllow/next-pwa-template/assets/1474821/1f0fa36e-23c7-4bcf-aa6e-f447559cae62" />
+
+<img width="500" alt="Rice Bowl PWA on iOS in dark mode" src="https://github.com/mvllow/next-pwa-template/assets/1474821/2fac61d0-dc29-4022-8b39-003306f80fb4" />
