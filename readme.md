@@ -17,7 +17,7 @@
 
 ## Features
 
-- ✨ Fluffless PWA using Next 12
+- ✨ Fluffless PWA using Next 13
 - 🌗 Lovely night/day themes
 - 🦄 Easily removable [nice-to-haves](#use-only-what-you-need)
 - 📱 Native-like mobile experience
