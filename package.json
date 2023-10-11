@@ -9,25 +9,25 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"next": "12.1.6",
+		"next": "13.5.4",
 		"next-pwa": "^5.6.0",
-		"next-themes": "^0.2.0",
-		"react": "18.1.0",
-		"react-dom": "18.1.0"
+		"next-themes": "^0.2.1",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
 	},
 	"devDependencies": {
-		"@types/node": "^17.0.35",
-		"@types/react": "^18.0.9",
-		"autoprefixer": "^10.4.7",
-		"eslint": "^8.16.0",
-		"eslint-config-next": "^12.1.6",
-		"eslint-config-prettier": "^8.5.0",
-		"postcss": "^8.4.14",
-		"prettier": "^2.6.2",
-		"prettier-plugin-tailwindcss": "^0.1.11",
-		"tailwindcss": "^3.0.24",
-		"tailwindcss-safe-area": "^0.2.2",
-		"typescript": "^4.6.4"
+		"@types/node": "^20.8.4",
+		"@types/react": "^18.2.28",
+		"autoprefixer": "^10.4.16",
+		"eslint": "^8.51.0",
+		"eslint-config-next": "^13.5.4",
+		"eslint-config-prettier": "^9.0.0",
+		"postcss": "^8.4.31",
+		"prettier": "^3.0.3",
+		"prettier-plugin-tailwindcss": "^0.5.5",
+		"tailwindcss": "^3.3.3",
+		"tailwindcss-safe-area": "^0.4.1",
+		"typescript": "^5.2.2"
 	},
 	"prettier": {
 		"semi": false,
